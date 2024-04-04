@@ -1,0 +1,6 @@
+# ninja log v5
+5	12245	7339548742930557	CMakeFiles/Kernel_Image_Processing.dir/main.cu.obj	79182e5878b19685
+12248	14435	7339548764917810	CMakeFiles/Kernel_Image_Processing.dir/cmake_device_link.obj	1c8169f8d4da21bf
+7	2489	7291149766544126	CMakeFiles/Kernel_Image_Processing.dir/Sequential.cpp.obj	c52872912f6cc0c
+14436	14750	7339548767467111	Kernel_Image_Processing.exe	862154b674adeab5
+4	323	7339552293732175	build.ninja	85ebec10425cafd4

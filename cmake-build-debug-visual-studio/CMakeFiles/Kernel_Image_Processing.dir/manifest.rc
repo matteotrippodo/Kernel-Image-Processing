@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/matte/Desktop/Parallel Computing/Kernel Image Processing/cmake-build-debug-visual-studio/CMakeFiles/Kernel_Image_Processing.dir/embed.manifest"

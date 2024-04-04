@@ -1,0 +1,712 @@
+"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\matte\Desktop\Parallel Computing\Kernel Image Processing" -B "C:\Users\matte\Desktop\Parallel Computing\Kernel Image Processing\cmake-build-release"
+CMake Error at C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:753 (message):
+  Compiling the CUDA compiler identification source file
+  "CMakeCUDACompilerId.cu" failed.
+
+  Compiler: C:/Program Files/NVIDIA GPU Computing
+  Toolkit/CUDA/v12.3/bin/nvcc.exe
+
+  Build flags:
+
+  Id flags: --keep;--keep-dir;tmp -v
+
+
+
+  The output was:
+
+  2
+
+
+
+  C:\Users\matte\Desktop\Parallel Computing\Kernel Image
+  Processing\cmake-build-release\CMakeFiles\3.27.8\CompilerIdCUDA>call
+  "C:/Program Files/Microsoft Visual
+  Studio/2022/Community/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat"
+
+
+  **********************************************************************
+
+  ** Visual Studio 2022 Developer Command Prompt v17.8.6
+
+  ** Copyright (c) 2022 Microsoft Corporation
+
+  **********************************************************************
+
+  [vcvarsall.bat] Environment initialized for: 'x64'
+
+  #$ C:/Program Files/Microsoft Visual
+  Studio/2022/Community/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat
+
+
+  #$ ALLUSERSPROFILE=C:\ProgramData
+
+  #$ APPDATA=C:\Users\matte\AppData\Roaming
+
+  #$ CLion=C:\Program Files\JetBrains\CLion 2023.2.2\bin;
+
+  #$ CLION_IDE=TRUE
+
+  #$ CMAKE_COLOR_DIAGNOSTICS=ON
+
+  #$ CommandPromptType=Native
+
+  #$ CommonProgramFiles=C:\Program Files\Common Files
+
+  #$ CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+
+  #$ CommonProgramW6432=C:\Program Files\Common Files
+
+  #$ COMPUTERNAME=LAPTOP-C5T950BQ
+
+  #$ ComSpec=C:\WINDOWS\system32\cmd.exe
+
+  #$ CUDAToolkit_ROOT=C:\Program Files\NVIDIA GPU Computing
+  Toolkit\CUDA\v12.3
+
+  #$ CUDA_PATH="C:\Program Files\NVIDIA GPU Computing
+  Toolkit\CUDA\v12.3\bin\nvcc.exe"
+
+  #$ DevEnvDir=C:\Program Files\Microsoft Visual
+  Studio\2022\Community\Common7\IDE\
+
+  #$ DriverData=C:\Windows\System32\Drivers\DriverData
+
+  #$ EFC_10404=1
+
+  #$ ExtensionSdkDir=C:\Program Files (x86)\Microsoft SDKs\Windows
+  Kits\10\ExtensionSDKs
+
+  #$ EXTERNAL_INCLUDE=C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include;C:\Program
+  Files\Microsoft Visual
+  Studio\2022\Community\VC\Auxiliary\VS\include;C:\Program Files
+  (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files
+  (x86)\Windows Kits\10\\include\10.0.22621.0\\um;C:\Program Files
+  (x86)\Windows Kits\10\\include\10.0.22621.0\\shared;C:\Program Files
+  (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt;C:\Program Files
+  (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt
+
+  #$ FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+
+  #$ FPS_BROWSER_USER_PROFILE_STRING=Default
+
+  #$ Framework40Version=v4.0
+
+  #$ FrameworkDir=C:\Windows\Microsoft.NET\Framework64\
+
+  #$ FrameworkDir64=C:\Windows\Microsoft.NET\Framework64\
+
+  #$ FrameworkVersion=v4.0.30319
+
+  #$ FrameworkVersion64=v4.0.30319
+
+  #$ HOMEDRIVE=C:
+
+  #$ HOMEPATH=\Users\matte
+
+  #$ IDEA_INITIAL_DIRECTORY=C:\Users\matte\Desktop\Parallel Computing\Kernel
+  Image Processing
+
+  #$ INCLUDE=C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include;C:\Program
+  Files\Microsoft Visual
+  Studio\2022\Community\VC\Auxiliary\VS\include;C:\Program Files
+  (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files
+  (x86)\Windows Kits\10\\include\10.0.22621.0\\um;C:\Program Files
+  (x86)\Windows Kits\10\\include\10.0.22621.0\\shared;C:\Program Files
+  (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt;C:\Program Files
+  (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt
+
+  #$ JETBRAINS_IDE=TRUE
+
+  #$ KMP_DUPLICATE_LIB_OK=TRUE
+
+  #$ LIB=C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\lib\x64;C:\Program Files
+  (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x64;C:\Program Files
+  (x86)\Windows Kits\10\\lib\10.0.22621.0\\um\x64
+
+  #$ LIBPATH=C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\lib\x64;C:\Program
+  Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\lib\x86\store\references;C:\Program
+  Files (x86)\Windows Kits\10\UnionMetadata\10.0.22621.0;C:\Program Files
+  (x86)\Windows
+  Kits\10\References\10.0.22621.0;C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+
+
+  #$ LOCALAPPDATA=C:\Users\matte\AppData\Local
+
+  #$ LOGONSERVER=\\LAPTOP-C5T950BQ
+
+  #$ MKL_SERIAL=YES
+
+  #$ NIDAQmxSwitchDir=C:\Program Files (x86)\National
+  Instruments\NI-DAQ\Switch\
+
+  #$ NIEXTCCOMPILERSUPP=C:\Program Files (x86)\National
+  Instruments\Shared\ExternalCompilerSupport\C\
+
+  #$ NUMBER_OF_PROCESSORS=8
+
+  #$ NVTOOLSEXT_PATH=C:\Program Files\NVIDIA Corporation\NvToolsExt\
+
+  #$ OneDrive=C:\Users\matte\OneDrive - stud.unifi.it
+
+  #$ OneDriveCommercial=C:\Users\matte\OneDrive - stud.unifi.it
+
+  #$ OneDriveConsumer=C:\Users\matte\OneDrive
+
+  #$ OpenCV_DIR=C:\Users\matte\Desktop\Parallel Computing\Kernel Image
+  Processing\opencv\build\
+
+  #$ OS=Windows_NT
+
+  #$ Path=C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64;C:\Program
+  Files\Microsoft Visual
+  Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft
+  Visual
+  Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team
+  Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\Team
+  Tools\Performance Tools\x64;C:\Program Files\Microsoft Visual
+  Studio\2022\Community\Team Tools\Performance Tools;C:\Program
+  Files\Microsoft Visual Studio\2022\Community\Team
+  Tools\DiagnosticsHub\Collector;C:\Program Files (x86)\Windows
+  Kits\10\bin\10.0.22621.0\\x64;C:\Program Files (x86)\Windows
+  Kits\10\bin\\x64;C:\Program Files\Microsoft Visual
+  Studio\2022\Community\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program
+  Files\Microsoft Visual Studio\2022\Community\Common7\IDE\;C:\Program
+  Files\Microsoft Visual Studio\2022\Community\Common7\Tools\;C:\Program
+  Files\JetBrains\CLion 2023.2.2\bin\mingw\bin;C:\Program Files (x86)\Common
+  Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS
+  Client\;C:\Program Files\Intel\iCLS
+  Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program
+  Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program
+  Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files
+  (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program
+  Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program
+  Files\Intel\WiFi\bin\;C:\Program Files\Common
+  Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL
+  Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL
+  Server\120\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program
+  Files\Microsoft SQL Server\130\Tools\Binn\;C:\MinGW\bin;C:\Program
+  Files\MATLAB\R2018b\bin;C:\Program Files (x86)\IVI
+  Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI
+  Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National
+  Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI
+  Foundation\VISA\WinNT\Bin;C:\Program Files\NVIDIA Corporation\Nsight
+  Compute 2022.2.0\;C:\Program Files (x86)\NVIDIA
+  Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA
+  NvDLISR;C:\Program Files\PuTTY\;C:\Program Files\Microsoft\Web Platform
+  Installer\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program
+  Files\Git\cmd;C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64;C:\Program
+  Files\NVIDIA GPU Computing
+  Toolkit\CUDA\v12.3;C:\Users\matte\Desktop\Parallel Computing\Kernel Image
+  Processing\opencv\build\x64\vc16\bin;C:\Program Files\CMake\bin;C:\Program
+  Files\MySQL\MySQL Shell
+  8.0\bin\;C:\Users\matte\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\matte\AppData\Local\Programs\Python\Python37-32\;C:\Users\matte\AppData\Local\Microsoft\WindowsApps;C:\Program
+  Files\JetBrains\CLion
+  2023.2.2\bin;;C:\Users\matte\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program
+  Files\JetBrains\PyCharm Community Edition 2023.1.4\bin;;C:\Program
+  Files\JetBrains\PhpStorm
+  2023.2\bin;;C:\Users\matte\AppData\Local\Programs\Microsoft VS
+  Code\bin;C:\Program Files\NVIDIA GPU Computing
+  Toolkit\CUDA\v12.3\bin;C:\Users\matte\Desktop\Parallel Computing\Kernel
+  Image Processing\opencv\build\x64\vc16\bin;;C:\Program
+  Files\JetBrains\CLion 2023.2.2\bin\ninja\win\x64;C:\Program Files\Microsoft
+  Visual
+  Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program
+  Files\Microsoft Visual
+  Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program
+  Files\Microsoft Visual
+  Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe
+
+  #$ PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+
+  #$ PhpStorm=C:\Program Files\JetBrains\PhpStorm 2023.2\bin;
+
+  #$ Platform=x64
+
+  #$ PROCESSOR_ARCHITECTURE=AMD64
+
+  #$ PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 10,
+  GenuineIntel
+
+  #$ PROCESSOR_LEVEL=6
+
+  #$ PROCESSOR_REVISION=8e0a
+
+  #$ ProgramData=C:\ProgramData
+
+  #$ ProgramFiles=C:\Program Files
+
+  #$ ProgramFiles(x86)=C:\Program Files (x86)
+
+  #$ ProgramW6432=C:\Program Files
+
+  #$ PROMPT=$P$G
+
+  #$ PSModulePath=C:\Program
+  Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+
+
+  #$ PT7HOME=C:\Program Files (x86)\Cisco Packet Tracer 7.1
+
+  #$ PUBLIC=C:\Users\Public
+
+  #$ PyCharm Community Edition=C:\Program Files\JetBrains\PyCharm Community
+  Edition 2023.1.4\bin;
+
+  #$ QT_DEVICE_PIXEL_RATIO=auto
+
+  #$ SESSIONNAME=Console
+
+  #$ SystemDrive=C:
+
+  #$ SystemRoot=C:\WINDOWS
+
+  #$ UCRTVersion=10.0.22621.0
+
+  #$ UniversalCRTSdkDir=C:\Program Files (x86)\Windows Kits\10\
+
+  #$ USERDOMAIN=LAPTOP-C5T950BQ
+
+  #$ USERDOMAIN_ROAMINGPROFILE=LAPTOP-C5T950BQ
+
+  #$ USERNAME=matte
+
+  #$ USERPROFILE=C:\Users\matte
+
+  #$ VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+
+  #$ VCIDEInstallDir=C:\Program Files\Microsoft Visual
+  Studio\2022\Community\Common7\IDE\VC\
+
+  #$ VCINSTALLDIR=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\
+
+  #$ VCToolsInstallDir=C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\
+
+  #$ VCToolsRedistDir=C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Redist\MSVC\14.38.33135\
+
+  #$ VCToolsVersion=14.38.33130
+
+  #$ VisualStudioVersion=17.0
+
+  #$ VS110COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio
+  11.0\Common7\Tools\
+
+  #$ VS120COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio
+  12.0\Common7\Tools\
+
+  #$ VS170COMNTOOLS=C:\Program Files\Microsoft Visual
+  Studio\2022\Community\Common7\Tools\
+
+  #$ VSCMD_ARG_app_plat=Desktop
+
+  #$ VSCMD_ARG_HOST_ARCH=x64
+
+  #$ VSCMD_ARG_TGT_ARCH=x64
+
+  #$ VSCMD_VER=17.8.6
+
+  #$ vsconsoleoutput=1
+
+  #$ VSINSTALLDIR=C:\Program Files\Microsoft Visual Studio\2022\Community\
+
+  #$ VTUNE_PROFILER_2024_DIR=C:\Program Files (x86)\Intel\oneAPI\vtune\2024.0
+
+  #$ VXIPNPPATH=C:\Program Files (x86)\IVI Foundation\VISA\
+
+  #$ VXIPNPPATH64=C:\Program Files\IVI Foundation\VISA\
+
+  #$ windir=C:\WINDOWS
+
+  #$ WindowsLibPath=C:\Program Files (x86)\Windows
+  Kits\10\UnionMetadata\10.0.22621.0;C:\Program Files (x86)\Windows
+  Kits\10\References\10.0.22621.0
+
+  #$ WindowsSdkBinPath=C:\Program Files (x86)\Windows Kits\10\bin\
+
+  #$ WindowsSdkDir=C:\Program Files (x86)\Windows Kits\10\
+
+  #$ WindowsSDKLibVersion=10.0.22621.0\
+
+  #$ WindowsSdkVerBinPath=C:\Program Files (x86)\Windows
+  Kits\10\bin\10.0.22621.0\
+
+  #$ WindowsSDKVersion=10.0.22621.0\
+
+  #$ __DOTNET_ADD_64BIT=1
+
+  #$ __DOTNET_PREFERRED_BITNESS=64
+
+  #$ __PSLockDownPolicy=0
+
+  #$ __VSCMD_PREINIT_PATH=C:\Program Files\JetBrains\CLion
+  2023.2.2\bin\mingw\bin;C:\Program Files (x86)\Common
+  Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS
+  Client\;C:\Program Files\Intel\iCLS
+  Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program
+  Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program
+  Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files
+  (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program
+  Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program
+  Files\Intel\WiFi\bin\;C:\Program Files\Common
+  Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL
+  Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL
+  Server\120\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program
+  Files\Microsoft SQL Server\130\Tools\Binn\;C:\MinGW\bin;C:\Program
+  Files\MATLAB\R2018b\bin;C:\Program Files (x86)\IVI
+  Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI
+  Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National
+  Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI
+  Foundation\VISA\WinNT\Bin;C:\Program Files\NVIDIA Corporation\Nsight
+  Compute 2022.2.0\;C:\Program Files (x86)\NVIDIA
+  Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA
+  NvDLISR;C:\Program Files\PuTTY\;C:\Program Files\Microsoft\Web Platform
+  Installer\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program
+  Files\Git\cmd;C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64;C:\Program
+  Files\NVIDIA GPU Computing
+  Toolkit\CUDA\v12.3;C:\Users\matte\Desktop\Parallel Computing\Kernel Image
+  Processing\opencv\build\x64\vc16\bin;C:\Program Files\CMake\bin;C:\Program
+  Files\MySQL\MySQL Shell
+  8.0\bin\;C:\Users\matte\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\matte\AppData\Local\Programs\Python\Python37-32\;C:\Users\matte\AppData\Local\Microsoft\WindowsApps;C:\Program
+  Files\JetBrains\CLion
+  2023.2.2\bin;;C:\Users\matte\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program
+  Files\JetBrains\PyCharm Community Edition 2023.1.4\bin;;C:\Program
+  Files\JetBrains\PhpStorm
+  2023.2\bin;;C:\Users\matte\AppData\Local\Programs\Microsoft VS
+  Code\bin;C:\Program Files\NVIDIA GPU Computing
+  Toolkit\CUDA\v12.3\bin;C:\Users\matte\Desktop\Parallel Computing\Kernel
+  Image Processing\opencv\build\x64\vc16\bin;;C:\Program
+  Files\JetBrains\CLion 2023.2.2\bin\ninja\win\x64
+
+  #$ PATH=C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64;C:\Program
+  Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64;C:\Program
+  Files\Microsoft Visual
+  Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft
+  Visual
+  Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team
+  Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\Team
+  Tools\Performance Tools\x64;C:\Program Files\Microsoft Visual
+  Studio\2022\Community\Team Tools\Performance Tools;C:\Program
+  Files\Microsoft Visual Studio\2022\Community\Team
+  Tools\DiagnosticsHub\Collector;C:\Program Files (x86)\Windows
+  Kits\10\bin\10.0.22621.0\\x64;C:\Program Files (x86)\Windows
+  Kits\10\bin\\x64;C:\Program Files\Microsoft Visual
+  Studio\2022\Community\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program
+  Files\Microsoft Visual Studio\2022\Community\Common7\IDE\;C:\Program
+  Files\Microsoft Visual Studio\2022\Community\Common7\Tools\;C:\Program
+  Files\JetBrains\CLion 2023.2.2\bin\mingw\bin;C:\Program Files (x86)\Common
+  Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS
+  Client\;C:\Program Files\Intel\iCLS
+  Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program
+  Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program
+  Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files
+  (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program
+  Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program
+  Files\Intel\WiFi\bin\;C:\Program Files\Common
+  Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL
+  Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL
+  Server\120\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program
+  Files\Microsoft SQL Server\130\Tools\Binn\;C:\MinGW\bin;C:\Program
+  Files\MATLAB\R2018b\bin;C:\Program Files (x86)\IVI
+  Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI
+  Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National
+  Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI
+  Foundation\VISA\WinNT\Bin;C:\Program Files\NVIDIA Corporation\Nsight
+  Compute 2022.2.0\;C:\Program Files (x86)\NVIDIA
+  Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA
+  NvDLISR;C:\Program Files\PuTTY\;C:\Program Files\Microsoft\Web Platform
+  Installer\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program
+  Files\Git\cmd;C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64;C:\Program
+  Files\NVIDIA GPU Computing
+  Toolkit\CUDA\v12.3;C:\Users\matte\Desktop\Parallel Computing\Kernel Image
+  Processing\opencv\build\x64\vc16\bin;C:\Program Files\CMake\bin;C:\Program
+  Files\MySQL\MySQL Shell
+  8.0\bin\;C:\Users\matte\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\matte\AppData\Local\Programs\Python\Python37-32\;C:\Users\matte\AppData\Local\Microsoft\WindowsApps;C:\Program
+  Files\JetBrains\CLion
+  2023.2.2\bin;;C:\Users\matte\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program
+  Files\JetBrains\PyCharm Community Edition 2023.1.4\bin;;C:\Program
+  Files\JetBrains\PhpStorm
+  2023.2\bin;;C:\Users\matte\AppData\Local\Programs\Microsoft VS
+  Code\bin;C:\Program Files\NVIDIA GPU Computing
+  Toolkit\CUDA\v12.3\bin;C:\Users\matte\Desktop\Parallel Computing\Kernel
+  Image Processing\opencv\build\x64\vc16\bin;;C:\Program
+  Files\JetBrains\CLion 2023.2.2\bin\ninja\win\x64;C:\Program Files\Microsoft
+  Visual
+  Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program
+  Files\Microsoft Visual
+  Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program
+  Files\Microsoft Visual
+  Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe
+
+  #$ _NVVM_BRANCH_=nvvm
+
+  #$ _SPACE_=
+
+  #$ _CUDART_=cudart
+
+  #$ _HERE_=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin
+
+  #$ _THERE_=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin
+
+  #$ _TARGET_SIZE_=
+
+  #$ _TARGET_DIR_=
+
+  #$ _TARGET_SIZE_=64
+
+  #$ _WIN_PLATFORM_=x64
+
+  #$ TOP=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin/..
+
+  #$ NVVMIR_LIBRARY_DIR=C:/Program Files/NVIDIA GPU Computing
+  Toolkit/CUDA/v12.3/bin/../nvvm/libdevice
+
+  #$ PATH=C:/Program Files/NVIDIA GPU Computing
+  Toolkit/CUDA/v12.3/bin/../nvvm/bin;C:/Program Files/NVIDIA GPU Computing
+  Toolkit/CUDA/v12.3/bin;C:/Program Files/NVIDIA GPU Computing
+  Toolkit/CUDA/v12.3/bin/../lib;C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64;C:\Program
+  Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64;C:\Program
+  Files\Microsoft Visual
+  Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft
+  Visual
+  Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team
+  Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\Team
+  Tools\Performance Tools\x64;C:\Program Files\Microsoft Visual
+  Studio\2022\Community\Team Tools\Performance Tools;C:\Program
+  Files\Microsoft Visual Studio\2022\Community\Team
+  Tools\DiagnosticsHub\Collector;C:\Program Files (x86)\Windows
+  Kits\10\bin\10.0.22621.0\\x64;C:\Program Files (x86)\Windows
+  Kits\10\bin\\x64;C:\Program Files\Microsoft Visual
+  Studio\2022\Community\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program
+  Files\Microsoft Visual Studio\2022\Community\Common7\IDE\;C:\Program
+  Files\Microsoft Visual Studio\2022\Community\Common7\Tools\;C:\Program
+  Files\JetBrains\CLion 2023.2.2\bin\mingw\bin;C:\Program Files (x86)\Common
+  Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS
+  Client\;C:\Program Files\Intel\iCLS
+  Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program
+  Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program
+  Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files
+  (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program
+  Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program
+  Files\Intel\WiFi\bin\;C:\Program Files\Common
+  Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL
+  Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL
+  Server\120\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program
+  Files\Microsoft SQL Server\130\Tools\Binn\;C:\MinGW\bin;C:\Program
+  Files\MATLAB\R2018b\bin;C:\Program Files (x86)\IVI
+  Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI
+  Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National
+  Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI
+  Foundation\VISA\WinNT\Bin;C:\Program Files\NVIDIA Corporation\Nsight
+  Compute 2022.2.0\;C:\Program Files (x86)\NVIDIA
+  Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA
+  NvDLISR;C:\Program Files\PuTTY\;C:\Program Files\Microsoft\Web Platform
+  Installer\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program
+  Files\Git\cmd;C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64;C:\Program
+  Files\NVIDIA GPU Computing
+  Toolkit\CUDA\v12.3;C:\Users\matte\Desktop\Parallel Computing\Kernel Image
+  Processing\opencv\build\x64\vc16\bin;C:\Program Files\CMake\bin;C:\Program
+  Files\MySQL\MySQL Shell
+  8.0\bin\;C:\Users\matte\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\matte\AppData\Local\Programs\Python\Python37-32\;C:\Users\matte\AppData\Local\Microsoft\WindowsApps;C:\Program
+  Files\JetBrains\CLion
+  2023.2.2\bin;;C:\Users\matte\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program
+  Files\JetBrains\PyCharm Community Edition 2023.1.4\bin;;C:\Program
+  Files\JetBrains\PhpStorm
+  2023.2\bin;;C:\Users\matte\AppData\Local\Programs\Microsoft VS
+  Code\bin;C:\Program Files\NVIDIA GPU Computing
+  Toolkit\CUDA\v12.3\bin;C:\Users\matte\Desktop\Parallel Computing\Kernel
+  Image Processing\opencv\build\x64\vc16\bin;;C:\Program
+  Files\JetBrains\CLion 2023.2.2\bin\ninja\win\x64;C:\Program Files\Microsoft
+  Visual
+  Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program
+  Files\Microsoft Visual
+  Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program
+  Files\Microsoft Visual
+  Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe
+
+  #$ INCLUDES="-IC:/Program Files/NVIDIA GPU Computing
+  Toolkit/CUDA/v12.3/bin/../include"
+
+  #$ LIBRARIES= "/LIBPATH:C:/Program Files/NVIDIA GPU Computing
+  Toolkit/CUDA/v12.3/bin/../lib/x64"
+
+  #$ CUDAFE_FLAGS=
+
+  #$ PTXAS_FLAGS=
+
+  #$ erase tmp/a_dlink.reg.c
+
+  CMakeCUDACompilerId.cu
+
+  #$ resource file tmp/CMakeCUDACompilerId.cpp4.ii.res:
+  [-D__CUDA_ARCH_LIST__=520 -nologo -E -TP -EHsc -D__CUDACC__ -D__NVCC__
+  "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin/../include"
+  -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=3
+  -D__CUDACC_VER_BUILD__=107 -D__CUDA_API_VER_MAJOR__=12
+  -D__CUDA_API_VER_MINOR__=3 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI
+  "cuda_runtime.h" "CMakeCUDACompilerId.cu" ]
+
+  #$ cl.exe @"tmp/CMakeCUDACompilerId.cpp4.ii.res" >
+  "tmp/CMakeCUDACompilerId.cpp4.ii"
+
+  CMakeCUDACompilerId.cu
+
+  #$ cudafe++ --microsoft_version=1938 --msvc_target_version=1938
+  --compiler_bindir "C:/Program Files/Microsoft Visual
+  Studio/2022/Community/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/../../../../../../.."
+  --sdk_dir "C:/Program Files (x86)/Windows Kits/10/" --display_error_number
+  --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name
+  "C:\Users\matte\Desktop\Parallel Computing\Kernel Image
+  Processing\cmake-build-release\CMakeFiles\3.27.8\CompilerIdCUDA\CMakeCUDACompilerId.cu"
+  --allow_managed --m64 --parse_templates --gen_c_file_name
+  "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name
+  "CMakeCUDACompilerId.cudafe1.stub.c" --gen_module_id_file
+  --module_id_file_name "tmp/CMakeCUDACompilerId.module_id"
+  "tmp/CMakeCUDACompilerId.cpp4.ii"
+
+  #$ resource file tmp/CMakeCUDACompilerId.cpp1.ii.res: [-D__CUDA_ARCH__=520
+  -D__CUDA_ARCH_LIST__=520 -nologo -E -TP -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc
+  -D__CUDACC__ -D__NVCC__ "-IC:/Program Files/NVIDIA GPU Computing
+  Toolkit/CUDA/v12.3/bin/../include" -D__CUDACC_VER_MAJOR__=12
+  -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=107
+  -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=3
+  -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI "cuda_runtime.h"
+  "CMakeCUDACompilerId.cu" ]
+
+  #$ cl.exe @"tmp/CMakeCUDACompilerId.cpp1.ii.res" >
+  "tmp/CMakeCUDACompilerId.cpp1.ii"
+
+  CMakeCUDACompilerId.cu
+
+  #$ cicc --microsoft_version=1938 --msvc_target_version=1938
+  --compiler_bindir "C:/Program Files/Microsoft Visual
+  Studio/2022/Community/VC/Tools/MSVC/14.16.27023/bin/HostX64/x64/../../../../../../.."
+  --sdk_dir "C:/Program Files (x86)/Windows Kits/10/" --display_error_number
+  --orig_src_file_name "CMakeCUDACompilerId.cu" --orig_src_path_name
+  "C:\Users\matte\Desktop\Parallel Computing\Kernel Image
+  Processing\cmake-build-release\CMakeFiles\3.27.8\CompilerIdCUDA\CMakeCUDACompilerId.cu"
+  --allow_managed -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1
+  -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c"
+  -tused --module_id_file_name "tmp/CMakeCUDACompilerId.module_id"
+  --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name
+  "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name
+  "tmp/CMakeCUDACompilerId.cudafe1.gpu" "tmp/CMakeCUDACompilerId.cpp1.ii" -o
+  "tmp/CMakeCUDACompilerId.ptx"
+
+  #$ ptxas -arch=sm_52 -m64 "tmp/CMakeCUDACompilerId.ptx" -o
+  "tmp/CMakeCUDACompilerId.sm_52.cubin"
+
+  #$ fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64
+  --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 "
+  "--image3=kind=elf,sm=52,file=tmp/CMakeCUDACompilerId.sm_52.cubin"
+  "--image3=kind=ptx,sm=52,file=tmp/CMakeCUDACompilerId.ptx"
+  --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c"
+
+  #$ resource file tmp/CMakeCUDACompilerId.obj.res: [-D__CUDA_ARCH__=520
+  -D__CUDA_ARCH_LIST__=520 -nologo -c -TP -DCUDA_DOUBLE_MATH_FUNCTIONS -EHsc
+  "-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin/../include"
+  "C:\Users\matte\Desktop\Parallel Computing\Kernel Image
+  Processing\cmake-build-release\CMakeFiles\3.27.8\CompilerIdCUDA\tmp\CMakeCUDACompilerId.cudafe1.cpp"
+  ]
+
+  #$ cl.exe @"tmp/CMakeCUDACompilerId.obj.res"
+  -Fo"tmp/CMakeCUDACompilerId.obj"
+
+  CMakeCUDACompilerId.cudafe1.cpp
+
+  C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xtr1common(178):
+  error C3861: '__builtin_is_constant_evaluated': identificatore non trovato
+
+  C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xtr1common(177):
+  error C3615: la funzione constexpr 'std::_Is_constant_evaluated' non può
+  restituire un'espressione costante
+
+  C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xtr1common(179):
+  note: l'errore è stato causato da un controllo che ha raggiunto la fine di
+  una funzione constexpr
+
+  C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(229): error
+  C2523:
+  'std::pair<_Ty1,_Ty2>::!conjunction_v<std::_Is_implicitly_default_constructible<`template-type-parameter-1',void>,std::_Is_implicitly_default_constructible<`template-type-parameter-2',void>
+  >': errore di corrispondenza nel tag del finalizer
+
+  C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(467): note:
+  vedere il riferimento all'istanza '<Sconosciuto>' di modello <Sconosciuto>
+  di cui è in corso la compilazione
+
+  C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(230): error
+  C2178: non è possibile dichiarare
+  'pair<`template-type-parameter-1',`template-type-parameter-2'>' con
+  l'identificatore 'explicit'
+
+  C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(230): error
+  C4430: identificatore di tipo mancante, verrà utilizzato int.  Nota:
+  default-int non è più supportato in C++
+
+  C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(230): error
+  C2061: errore di sintassi: identificatore 'pair'
+
+  C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(232): error
+  C2334: token imprevisti prima di ':'.  Il corpo apparente della funzione
+  verrà ignorato.
+
+  C:\Program Files\Microsoft Visual
+  Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(40): fatal
+  error C1075: '{': non sono stati trovati token corrispondenti
+
+  # --error 0x2 --
+
+
+
+
+
+Call Stack (most recent call first):
+  C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+  C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)
+  C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:307 (CMAKE_DETERMINE_COMPILER_ID)
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+
+Cannot get compiler information:
+	Compiler exited with error code 2: "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\cl.exe" @C:\Users\matte\AppData\Local\Temp\response-file8838779665412747114 C:\Users\matte\AppData\Local\Temp\compiler-file2365576935571505583 | @response-file8838779665412747114=/TP /std:c++17 -D__CUDA_ARCH_LIST__=500,720 -nologo -E -TP -EHsc -D__CUDACC__ -D__NVCC__ /W3 /GR /EHsc -MD -O2 -Ob2 "-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin/../include" -D _WINDOWS -D NDEBUG -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=107 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=3 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI cuda_runtime.h /Be /Bd /EP /w /wd4067
+	all:
+		@cd C:\Users\matte\Desktop\Parallel Computing\Kernel Image Processing\cmake-build-release
+		@set INCLUDE=
+		@set LIB=
+		@set CL=
+		@set _CL_=
+		@set LINK=
+		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\cl.exe @<< C:\Users\matte\AppData\Local\Temp\compiler-file2365576935571505583
+	/TP /std:c++17 -D__CUDA_ARCH_LIST__=500,720 -nologo -E -TP -EHsc -D__CUDACC__ -D__NVCC__ /W3 /GR /EHsc -MD -O2 -Ob2 "-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin/../include" -D _WINDOWS -D NDEBUG -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=107 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=3 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI cuda_runtime.h /Be /Bd /EP /w /wd4067<<
+	
+	cl : warning della riga di comando D9025 : override di '/W3' con '/w'
+	compiler-file2365576935571505583
+	`C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\c1xx.dll -zm0x00007FF6971769F0 -il C:\Users\matte\AppData\Local\Temp\_CL_7644a25b -typedil -f C:\Users\matte\AppData\Local\Temp\compiler-file2365576935571505583 -Ze -D_MSC_EXTENSIONS -Zp16 -ZB64 -D_INTEGRAL_MAX_BITS=64 -Focompiler-file2365576935571505583.obj -pc \:/ -Fdvc140.pdb -D_MSC_VER=1916 -D_MSC_FULL_VER=191627051 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GS -Zc:forScope -Zc:wchar_t -std:c++17 -D__CUDA_ARCH_LIST__=500,720 -nologo -D__CUDACC__ -D__NVCC__ -GR -D_CPPRTTI -EHs -D_CPPUNWIND -EHc -MD -D_MT -D_DLL -GF -Og -Oi -Ot -Oy -I C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin/../include -D_WINDOWS -DNDEBUG -D__CUDACC_VER_MAJOR__=12 -D__CUDACC_VER_MINOR__=3 -D__CUDACC_VER_BUILD__=107 -D__CUDA_API_VER_MAJOR__=12 -D__CUDA_API_VER_MINOR__=3 -D__NVCC_DIAG_PRAGMA_SUPPORT__=1 -FI cuda_runtime.h -Bd -E -EP -W 0 -wd 4067'
+	c:\program files\nvidia gpu computing toolkit\cuda\v12.3\include\crt/host_config.h(242): fatal error C1083: Non è possibile aprire il file inclusione: 'crtdefs.h': No such file or directory
+	
+	

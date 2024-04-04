@@ -1,0 +1,3 @@
+C:/Users/matte/Desktop/Parallel Computing/Kernel Image Processing/cmake-build-debug-visual-studio/CMakeFiles/Kernel_Image_Processing.dir
+C:/Users/matte/Desktop/Parallel Computing/Kernel Image Processing/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
+C:/Users/matte/Desktop/Parallel Computing/Kernel Image Processing/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir
