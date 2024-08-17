@@ -1,0 +1,4 @@
+# ninja log v6
+14	31309	7456131605115171	CMakeFiles/Kernel_Image_Processing.dir/main.cu.obj	56ad43676ab8814c
+31316	38794	7456131918129216	CMakeFiles/Kernel_Image_Processing.dir/cmake_device_link.obj	183f4139ccccde53
+38794	39399	7456131992905502	Kernel_Image_Processing.exe	72e6db1c39f09f0e
