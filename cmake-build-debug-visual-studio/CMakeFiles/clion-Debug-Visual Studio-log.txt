@@ -1,9 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" "-DCMAKE_CUDA_COMPILER=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.3/bin/nvcc.exe" -G Ninja -S "C:\Users\matte\Desktop\Parallel Computing\Kernel Image Processing" -B "C:\Users\matte\Desktop\Parallel Computing\Kernel Image Processing\cmake-build-debug-visual-studio"
--- OpenCV ARCH: x64
--- OpenCV RUNTIME: vc16
--- OpenCV STATIC: OFF
--- Found OpenCV 4.9.0 in C:/Users/matte/Desktop/Parallel Computing/Kernel Image Processing/opencv/build/x64/vc16/lib
--- You might need to add C:\Users\matte\Desktop\Parallel Computing\Kernel Image Processing\opencv\build\x64\vc16\bin to your PATH to be able to run your applications.
--- Configuring done (0.1s)
--- Generating done (0.0s)
--- Build files have been written to: C:/Users/matte/Desktop/Parallel Computing/Kernel Image Processing/cmake-build-debug-visual-studio
