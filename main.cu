@@ -490,6 +490,7 @@ int main()  {
         cudaFreeHost(h_input_image);
         cudaFreeHost(h_output_image);
 
+        // Compute average sequential and parallel execution times and estimate their coefficent of variation
         auto total_seq_time = std::accumulate(sequential_durations.begin(), sequential_durations.end(),
                                               std::chrono::duration<double>(0));
 
@@ -518,20 +519,17 @@ int main()  {
                                                        return sum + std::pow(time.count() - avg_seq_time, 2);
                                                    }) / sequential_durations.size();
 
-        // Calcolo della varianza per i tempi paralleli
         double var_par_time = std::accumulate(parallel_durations[0].begin(), parallel_durations[0].end(), 0.0,
                                                    [avg_par_time](double sum, const std::chrono::duration<double>& time) {
                                                        return sum + std::pow(time.count() - avg_par_time, 2);
                                                    }) / parallel_durations[0].size();
 
-        // Calcolo della varianza per i tempi paralleli con carico
         double variance_par_time_with_load = std::accumulate(parallel_durations_with_load[0].begin(),
                                                              parallel_durations_with_load[0].end(), 0.0,
                                                              [avg_par_time_with_load](double sum, const std::chrono::duration<double>& time) {
                                                                  return sum + std::pow(time.count() - avg_par_time_with_load, 2);
                                                              }) / parallel_durations_with_load[0].size();
 
-        // Calcolo delle deviazioni standard
         double std_seq_time = std::sqrt(var_seq_time);
         double std_par_time = std::sqrt(var_par_time);
         double std_par_time_with_load = std::sqrt(variance_par_time_with_load);
@@ -551,6 +549,8 @@ int main()  {
         std::cout << "Speedup (global): " << speedup << std::endl;
         std::cout << "Speedup considering loads (global): " << speedup_with_load << std::endl;
 
+
+        // Do the same for the tiled version
         auto total_par_time_tiled = std::accumulate(parallel_durations[1].begin(), parallel_durations[1].end(),
                                                     std::chrono::duration<double>(0));
         auto total_par_time_with_load_tiled = std::accumulate(parallel_durations_with_load[1].begin(),
@@ -573,14 +573,12 @@ int main()  {
                                                        return sum + std::pow(time.count() - avg_par_time_tiled, 2);
                                                    }) / parallel_durations[1].size();
 
-        // Calcolo della varianza per i tempi paralleli con carico
         double var_par_time_with_load_tiled = std::accumulate(parallel_durations_with_load[1].begin(),
                                                              parallel_durations_with_load[1].end(), 0.0,
                                                              [avg_par_time_with_load_tiled](double sum, const std::chrono::duration<double>& time) {
                                                                  return sum + std::pow(time.count() - avg_par_time_with_load_tiled, 2);
                                                              }) / parallel_durations_with_load[1].size();
 
-        // Calcolo delle deviazioni standard
         double std_par_time_tiled = std::sqrt(var_par_time_tiled);
         double std_par_time_with_load_tiled = std::sqrt(var_par_time_with_load_tiled);
 
@@ -600,6 +598,8 @@ int main()  {
         std::cout << "Speedup (tiled): " << speedup_tiled << std::endl;
         std::cout << "Speedup considering loads (tiled): " << speedup_with_load_tiled << std::endl;
 
+
+        // Do the same for the tiled+const version
         auto total_par_time_const = std::accumulate(parallel_durations[2].begin(), parallel_durations[2].end(),
                                                     std::chrono::duration<double>(0));
         auto total_par_time_with_load_const = std::accumulate(parallel_durations_with_load[2].begin(),
@@ -621,14 +621,12 @@ int main()  {
                                                              return sum + std::pow(time.count() - avg_par_time_const, 2);
                                                          }) / parallel_durations[2].size();
 
-        // Calcolo della varianza per i tempi paralleli con carico
         double var_par_time_with_load_const = std::accumulate(parallel_durations_with_load[2].begin(),
                                                                    parallel_durations_with_load[2].end(), 0.0,
                                                                    [avg_par_time_with_load_const](double sum, const std::chrono::duration<double>& time) {
                                                                        return sum + std::pow(time.count() - avg_par_time_with_load_const, 2);
                                                                    }) / parallel_durations_with_load[2].size();
 
-        // Calcolo delle deviazioni standard
         double std_par_time_const = std::sqrt(var_par_time_const);
         double std_par_time_with_load_const = std::sqrt(var_par_time_with_load_const);
 
