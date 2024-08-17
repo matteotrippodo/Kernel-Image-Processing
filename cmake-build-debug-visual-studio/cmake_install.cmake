@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/matte/Desktop/Parallel Computing/Kernel Image Processing
+# Install script for directory: C:/Users/matte/Desktop/Parallel Computing/KIP/ikp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/matte/Desktop/Parallel Computing/Kernel Image Processing/cmake-build-debug-visual-studio/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/matte/Desktop/Parallel Computing/KIP/ikp/cmake-build-debug-visual-studio/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
