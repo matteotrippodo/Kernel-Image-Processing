@@ -646,7 +646,6 @@ int main()  {
         std::cout << "Speedup (const): " << speedup_const << std::endl;
         std::cout << "Speedup considering loads (const): " << speedup_with_load_const <<"\n" << std::endl;
 
-        //break;
     }
 
     return 0;
